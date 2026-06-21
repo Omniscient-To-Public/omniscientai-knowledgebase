@@ -22,15 +22,13 @@ public website voice demo.
 
 ## Does Omniscient AI offer fixed pricing?
 
-The public website does not publish fixed prices. Scope and commercial terms depend on the selected
-capabilities, integrations, delivery requirements, and operating constraints.
+Scope and commercial terms depend on the selected capabilities, integrations, delivery requirements, and operating constraints.
 
 For pricing or a project discussion, use the Omniscient AI contact page at `/contact-us`.
 
 ## Does Omniscient AI guarantee results or timelines?
 
-No public guarantee or standard delivery timeline is stated. Expected outcomes and schedules need to be
-evaluated for the specific project, available systems, data readiness, integration complexity, and review
+Expected outcomes and schedules need to be evaluated for the specific project, available systems, data readiness, integration complexity, and review
 requirements.
 
 ## Where can someone learn more?
