@@ -7,8 +7,14 @@ applications, software delivery, cloud integration, and data-driven operations.
 
 ## What is Atlas?
 
-Atlas is Omniscient AI's platform for voice AI, multi-channel customer communication, workflow automation,
-knowledge retrieval, routing, and support intelligence.
+Atlas is Omniscient AI's platform for voice AI, multi-channel customer communication, appointment booking,
+lead follow-up, workflow automation, knowledge retrieval, routing, and support intelligence.
+
+## What Atlas products are on the public website?
+
+The public website presents Atlas Receptionist at `/atlas/receptionist`, Atlas Social Content Marketing
+at `/atlas/social-content-marketing`, and Atlas Sales and Leads at `/atlas/sales-and-leads`. The Atlas
+platform overview is at `/features`.
 
 ## Can Atlas answer questions using company information?
 
@@ -19,6 +25,21 @@ and workflow knowledge. The sources and access rules are configured for each imp
 
 Atlas can route or escalate configured cases and provide context for a human handoff. The destination,
 rules, and available context depend on the organization's workflow and integrations.
+
+## Can Atlas book appointments?
+
+Atlas can help customers book, change, or request appointments when the implementation includes the needed
+booking rules, calendar or scheduling integration, permissions, confirmations, and human fallback paths.
+
+## Can Atlas help with lead follow-up?
+
+Yes. Atlas can contact new leads, ask qualification questions, follow up by configured channels such as
+calls, SMS, or chat, and prepare a summary for the sales team.
+
+## Can Atlas help with social content marketing?
+
+Atlas can help plan content themes, draft posts and campaign copy, prepare outreach messages, and support
+follow-up with interested prospects. Content should be reviewed by the organization before publication.
 
 ## Can Atlas update a CRM or help desk?
 

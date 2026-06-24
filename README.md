@@ -11,6 +11,8 @@ limited to claims approved for publication.
 - [Atlas AI Platform overview](atlas/atlas-ai-platform.md)
 - [Atlas features and use cases](atlas/features-and-use-cases.md)
 - [Atlas controls, privacy, and limitations](atlas/controls-privacy-and-limitations.md)
+- Atlas product pages: `/atlas/receptionist`, `/atlas/social-content-marketing`, and
+  `/atlas/sales-and-leads`
 - [AI business automation](services/ai-business-automation.md)
 - [Custom AI solutions](services/custom-ai-solutions.md)
 - [Software development](services/software-development.md)

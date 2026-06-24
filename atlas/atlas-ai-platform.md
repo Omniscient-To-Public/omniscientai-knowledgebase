@@ -2,20 +2,37 @@
 
 ## What is the Atlas AI Platform?
 
-Atlas is Omniscient AI's platform for voice AI, multi-channel customer communication, workflow automation,
-and support intelligence. It is designed to help customer-service and operations teams respond faster,
-automate common work, and route complex cases to people with useful context.
+Atlas is Omniscient AI's platform for voice AI, multi-channel customer communication, appointment booking,
+lead follow-up, workflow automation, and support intelligence. It is designed to help customer-facing
+teams answer, book, follow up, and sell when staff are busy or offline.
 
 Atlas can be adapted to an organization's approved knowledge, customer workflows, communication channels,
 and business systems.
+
+## Public Atlas product areas
+
+The public website presents these Atlas product areas:
+
+- **Atlas Receptionist** at `/atlas/receptionist`: AI receptionist for phone calls, website chat, SMS,
+  appointment requests, missed calls, after-hours enquiries, and team handoff.
+- **Atlas Social Content Marketing** at `/atlas/social-content-marketing`: content planning, campaign
+  drafting, outreach support, and follow-up for teams that need consistent marketing activity.
+- **Atlas Sales and Leads** at `/atlas/sales-and-leads`: outbound calls, inbound calls, SMS, website chat,
+  lead qualification, and sales handoff.
+
+The platform overview is available at `/features`.
 
 ## What can Atlas do?
 
 Atlas capabilities include:
 
 - Hold natural voice conversations
-- Answer questions using controlled knowledge sources
-- Support customer communication across voice and other configured channels
+- Answer customer questions using controlled business information
+- Answer phone calls and support website chat or SMS when configured
+- Help customers book, change, or request appointments
+- Send confirmations, reminders, and follow-up messages when configured
+- Qualify leads by asking practical questions about needs, timing, budget, and next steps
+- Support content planning, campaign drafting, outreach, and follow-up workflows
 - Classify customer intent, urgency, and context
 - Route requests to the correct team, queue, or automation
 - Summarize conversations and prepare contextual handoffs
@@ -35,7 +52,8 @@ handoff.
 ## Is Atlas only for voice?
 
 Voice AI is a central capability, but Atlas is intended for multi-channel customer operations. A configured
-solution may connect calls, chat, web forms, messaging, and follow-up work into a shared operational flow.
+solution may connect calls, website chat, SMS, forms, messaging, and follow-up work into a shared
+operational flow.
 
 ## Can Atlas use a company's knowledge?
 
@@ -56,8 +74,11 @@ security requirements, and desired workflow.
 Atlas is designed around operational outcomes such as:
 
 - Faster first response
+- Fewer missed calls and missed enquiries
+- More appointments booked or requested
+- More consistent lead follow-up
 - More consistent answers to common questions
-- Less repetitive work for support teams
+- Less repetitive work for front-desk, sales, marketing, and support teams
 - Better routing and escalation context
 - Clearer operational visibility
 - Controlled automation with human involvement where needed
