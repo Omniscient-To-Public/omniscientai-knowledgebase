@@ -2,13 +2,13 @@
 
 ## What is Omniscient AI's main focus?
 
-Omniscient AI builds AI and software systems for customer communication, workflow automation, custom
-applications, software delivery, cloud integration, and data-driven operations.
+Omniscient AI builds AI and software systems, offering Atlas AI Platform for AI voice and multi-channel customer communications,  process and workflow automation, custom
+applications
 
 ## What is Atlas?
 
 Atlas is Omniscient AI's platform for voice AI, multi-channel customer communication, appointment booking,
-lead follow-up, workflow automation, knowledge retrieval, routing, and support intelligence.
+lead follow-up, AI marketing and sales, workflow automation, call routing, and support intelligence.
 
 ## What Atlas products are on the public website?
 
