@@ -13,8 +13,8 @@ lead follow-up, AI marketing and sales, workflow automation, call routing, and s
 ## What Atlas products are on the public website?
 
 The public website presents Atlas Receptionist at `/atlas/receptionist`, Atlas Social Content Marketing
-at `/atlas/social-content-marketing`, and Atlas Sales and Leads at `/atlas/sales-and-leads`. The Atlas
-platform overview is at `/features`.
+at `/atlas/social-content-marketing`, Atlas Sales and Leads at `/atlas/sales-and-leads`, and the Atlas Nexus
+contact center at `/atlas/nexus`. The Atlas platform overview is at `/features`.
 
 ## Can Atlas answer questions using company information?
 
@@ -25,6 +25,12 @@ and workflow knowledge. The sources and access rules are configured for each imp
 
 Atlas can route or escalate configured cases and provide context for a human handoff. The destination,
 rules, and available context depend on the organization's workflow and integrations.
+
+## Does Omniscient AI have a contact center product?
+
+Yes. Atlas Nexus is Omniscient AI's contact center for human agents and supervisors. It works alongside
+Atlas, so calls and messaging conversations handed over by Atlas arrive with a summary and context. See
+`/atlas/nexus`.
 
 ## Can Atlas book appointments?
 

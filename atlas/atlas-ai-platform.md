@@ -19,6 +19,8 @@ The public website presents these Atlas product areas:
   drafting, outreach support, and follow-up for teams that need consistent marketing activity.
 - **Atlas Sales and Leads** at `/atlas/sales-and-leads`: outbound calls, inbound calls, SMS, website chat,
   lead qualification, and sales handoff.
+- **Atlas Nexus** at `/atlas/nexus`: contact center for human agents and supervisors, with call queues,
+  browser phones, handoffs from Atlas, live supervision, QA scoring, and reports.
 
 The platform overview is available at `/features`.
 
