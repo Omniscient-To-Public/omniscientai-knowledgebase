@@ -52,7 +52,8 @@ and suggest an appropriate next step.
 Atlas can classify intent, urgency, and customer context before routing work. A handoff can include a
 summary and relevant context so a human does not need to restart the interaction from the beginning.
 
-Routing rules and escalation destinations are configured for the organization.
+Routing rules and escalation destinations are configured for the organization. Handoffs can go to agents
+in Atlas Nexus, Omniscient AI's contact center, where the agent sees the summary and context from Atlas.
 
 ## Workflow automation
 
