@@ -53,7 +53,7 @@ Atlas can classify intent, urgency, and customer context before routing work. A 
 summary and relevant context so a human does not need to restart the interaction from the beginning.
 
 Routing rules and escalation destinations are configured for the organization. Handoffs can go to agents
-in Atlas Nexus, Omniscient AI's contact center, where the agent sees the summary and context from Atlas.
+in Nexus by Atlas, Omniscient AI's contact center, where the agent sees the summary and context from Atlas.
 
 ## Workflow automation
 
