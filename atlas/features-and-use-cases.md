@@ -1,111 +1,60 @@
 # Atlas Features and Use Cases
 
-## Voice AI agents
+## Voice conversations
 
-Atlas can provide voice agents that hold real-time conversations, answer approved questions, classify
-requests, and escalate when a case requires a person or specialized workflow.
+Atlas holds natural phone conversations, answers approved questions, and completes routine requests.
+Callers can interrupt Atlas while it is speaking, as they would with a person.
 
-Voice experiences can support interruption so a caller can speak while the agent is responding. The exact
-voice, language, business rules, and provider configuration depend on the implementation.
+## Atlas Receptionist
 
-## Phone answering and AI receptionist
-
-Atlas Receptionist can answer calls, collect customer details, explain services, help with appointment
-requests, and hand urgent or unusual cases to a team member with context. It can also support website chat
-and SMS follow-up when those channels are configured.
+Atlas Receptionist answers phone calls and WhatsApp messages, collects customer details, explains
+services, books appointments, records requests, and hands urgent or unusual cases to a team member with
+the context.
 
 Relevant public page: `/atlas/receptionist`.
 
-## Appointment scheduling and after-hours enquiries
+## WhatsApp messaging
 
-Atlas can help customers book, change, or request appointments without waiting for staff to reply. It can
-also capture questions, booking requests, and lead details after business hours.
+Customers can message Atlas on WhatsApp. They can send photos, voice notes, and a location pin, and Atlas
+replies in the language they write in. Customers can ask where their reports stand and add photos or
+notes to a report they already filed.
 
-Scheduling behavior depends on the organization's calendar systems, booking rules, permissions, and
-handoff process.
+## Appointment booking
 
-## Sales and lead follow-up
+Atlas checks open appointment times, offers them to the customer, and confirms before completing a
+booking. Customers can also change appointments. Booking rules are agreed with each organization.
 
-Atlas Sales and Leads can contact new leads, qualify interest, ask practical questions, and prepare a
-handoff summary for the sales team. Follow-up can use outbound calls, inbound calls, SMS, and website chat
-when configured.
+## Facilities management
 
-Relevant public page: `/atlas/sales-and-leads`.
+For facilities and property management teams, Atlas helps tenants and contractors report faults in their
+unit or in common areas, walks them through simple checks from the team's fault guide, records work-order
+applications and extension requests, and gives status updates. A new work order is an application; the
+facilities team keeps responsibility for approvals, contractor access, and attendance.
 
-## Social content marketing support
+## Handoff to people
 
-Atlas Social Content Marketing can help plan weekly content themes, draft posts and campaign copy, prepare
-outreach messages, and support follow-up with prospects who comment, enquire, or show interest.
+When a customer needs a person, Atlas transfers the call or hands the conversation to the team with a
+summary, so the customer does not have to start again. Handoffs can go to agents in Nexus by Atlas,
+Omniscient AI's contact center. Urgent reports are raised with the team quickly.
 
-Relevant public page: `/atlas/social-content-marketing`.
+## Answers from approved information
 
-## Controlled knowledge retrieval
-
-Atlas can search approved knowledge sources and use relevant passages to answer questions. This helps
-ground answers in company-specific information instead of relying only on general model knowledge.
-
-When approved knowledge does not support an answer, Atlas should say that the information is unavailable
-and suggest an appropriate next step.
-
-## Smart routing and contextual handoff
-
-Atlas can classify intent, urgency, and customer context before routing work. A handoff can include a
-summary and relevant context so a human does not need to restart the interaction from the beginning.
-
-Routing rules and escalation destinations are configured for the organization. Handoffs can go to agents
-in Nexus by Atlas, Omniscient AI's contact center, where the agent sees the summary and context from Atlas.
-
-## Workflow automation
-
-Atlas can participate in configured workflows such as:
-
-- Creating summaries
-- Updating permitted business records
-- Triggering reminders or follow-up tasks
-- Routing approvals
-- Moving requests between queues
-- Notifying responsible teams
-
-Actions should use defined tools and permissions. Atlas should not execute arbitrary code or arbitrary
-destinations.
-
-## Omnichannel customer operations
-
-Atlas can help unify customer interactions across configured channels such as calls, chat, web forms,
-messaging, and follow-up tasks. The aim is to maintain one useful operational trail instead of isolated
-conversations.
-
-## Operational analytics
-
-Atlas implementations can monitor non-content operational measures such as missed enquiries, bookings,
-lead outcomes, follow-up activity, response speed, escalation rate, automation quality, usage, latency, and
-workflow exceptions.
-
-Analytics should be designed to avoid exposing unnecessary conversation content or sensitive information.
+Atlas answers from information the organization approves. When that information does not support an
+answer, Atlas says the information is unavailable and suggests a next step.
 
 ## Example use cases
 
-Potential Atlas use cases include:
+Atlas use cases include:
 
-- Answering common customer or service questions
-- Recovering missed calls
-- Capturing after-hours enquiries
-- Booking, changing, or requesting appointments
-- Confirming or reminding customers by SMS when configured
-- Planning social content and drafting campaign copy
-- Following up with prospects after comments, enquiries, or submitted leads
-- Qualifying and routing inbound requests
-- Calling or messaging new leads quickly
-- Providing status or process guidance from approved systems
-- Summarizing conversations for a support team
-- Escalating complex or sensitive cases with context
-- Automating repetitive support-administration steps
-- Helping internal teams search approved operational knowledge
-
-Each use case requires review of data access, permissions, failure handling, privacy, and human escalation.
+- Answering common customer questions
+- Covering missed and after-hours calls
+- Booking or changing appointments
+- Taking fault reports by phone or WhatsApp
+- Recording work-order applications and extension requests
+- Giving status updates on existing requests
+- Handing complex or sensitive cases to the team with context
 
 ## Public website best-fit examples
 
-The public website describes Atlas as a fit for customer-facing businesses where missed enquiries have a
-clear business cost. Examples include dental and medical clinics, aesthetics and beauty clinics, salons and
-spas, retail brands and service counters, showrooms, wellness providers, and property agencies.
+The public websites describe Atlas as a fit for facilities and property management teams, aesthetics and
+beauty clinics, and service businesses that take bookings or need after-hours cover.

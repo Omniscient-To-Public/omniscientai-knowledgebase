@@ -2,87 +2,78 @@
 
 ## What is the Atlas AI Platform?
 
-Atlas is Omniscient AI's platform for voice AI, multi-channel customer communication, appointment booking,
-lead follow-up, workflow automation, and support intelligence. It is designed to help customer-facing
-teams answer, book, follow up, and sell when staff are busy or offline.
+Atlas is Omniscient AI's conversational AI platform for customer calls and messaging. Atlas answers phone
+calls and WhatsApp messages, answers questions from an organization's approved information, books
+appointments, records requests such as fault reports and work orders, gives status updates, and hands
+customers to a person with the full context when one is needed.
 
-Atlas can be adapted to an organization's approved knowledge, customer workflows, communication channels,
-and business systems.
+Atlas is adapted to each organization's approved knowledge, booking rules, workflows, and escalation paths.
+The Atlas website is use-atlas.ai.
 
-## Public Atlas product areas
+## Public Atlas product pages
 
-The public website presents these Atlas product areas:
+The Omniscient AI website presents these Atlas product pages:
 
-- **Atlas Receptionist** at `/atlas/receptionist`: AI receptionist for phone calls, website chat, SMS,
-  appointment requests, missed calls, after-hours enquiries, and team handoff.
-- **Atlas Social Content Marketing** at `/atlas/social-content-marketing`: content planning, campaign
-  drafting, outreach support, and follow-up for teams that need consistent marketing activity.
-- **Atlas Sales and Leads** at `/atlas/sales-and-leads`: outbound calls, inbound calls, SMS, website chat,
-  lead qualification, and sales handoff.
+- **Atlas Receptionist** at `/atlas/receptionist`: AI receptionist for phone calls and WhatsApp that
+  answers questions, books appointments, records requests, covers missed and after-hours calls, and hands
+  urgent work to the team.
 - **Nexus by Atlas** at `/atlas/nexus`: contact center for human agents and supervisors, with call queues,
   browser phones, handoffs from Atlas, live supervision, QA scoring, and reports.
 
-The platform overview is available at `/features`.
+The Atlas platform overview is available at `/features`.
 
 ## What can Atlas do?
 
 Atlas capabilities include:
 
-- Hold natural voice conversations
-- Answer customer questions using controlled business information
-- Answer phone calls and support website chat or SMS when configured
-- Help customers book, change, or request appointments
-- Send confirmations, reminders, and follow-up messages when configured
-- Qualify leads by asking practical questions about needs, timing, budget, and next steps
-- Support content planning, campaign drafting, outreach, and follow-up workflows
-- Classify customer intent, urgency, and context
-- Route requests to the correct team, queue, or automation
-- Summarize conversations and prepare contextual handoffs
-- Trigger configured workflow steps such as updates, reminders, or approvals
-- Connect with CRM, help-desk, cloud, database, and data platforms
-- Provide operational analytics for response, escalation, usage, and automation quality
+- Answer phone calls, including missed, overflow, and after-hours calls
+- Reply to WhatsApp messages, including photos, voice notes, and shared locations
+- Reply in the language the customer writes in on WhatsApp
+- Answer questions using the organization's approved information
+- Book or change appointments and confirm them in the conversation
+- Record requests such as fault reports and work-order applications, and give status updates
+- Recognize registered customers and confirm the relevant building or location
+- Transfer calls or hand conversations to the team, with a summary, through Nexus by Atlas
+- Raise urgent reports with the team quickly
 
-Actual capabilities depend on the implementation, integrations, permissions, and controls selected for the
-organization.
+Actual capabilities depend on the setup agreed with each organization.
+
+## Which channels does Atlas support?
+
+Atlas supports phone calls and WhatsApp. Conversations from other messaging apps, such as Telegram,
+Messenger, Instagram, and TikTok, can be handed to people in Nexus by Atlas. Atlas does not currently
+offer website chat, SMS conversations, or email conversations.
 
 ## Is Atlas only a chatbot?
 
-No. Atlas is positioned as an operational platform rather than only a chat interface. It can combine
-conversation, knowledge retrieval, routing, integrations, workflow automation, analytics, and human
-handoff.
-
-## Is Atlas only for voice?
-
-Voice AI is a central capability, but Atlas is intended for multi-channel customer operations. A configured
-solution may connect calls, website chat, SMS, forms, messaging, and follow-up work into a shared
-operational flow.
+No. Atlas holds natural voice and messaging conversations, completes routine requests such as bookings
+and fault reports, and hands customers to a person when judgment or empathy is needed.
 
 ## Can Atlas use a company's knowledge?
 
-Yes. Atlas can ground responses in controlled sources such as service documentation, product information,
-policies, approved internal knowledge, and workflow rules.
-
-Knowledge sources should be reviewed and governed. Retrieved content is reference material and should not
-be treated as executable instructions.
+Yes. Atlas answers from information the organization approves, such as services, opening hours, policies,
+and common questions. When the approved information does not cover a question, Atlas says so and offers
+another way to get help.
 
 ## Can Atlas integrate with existing systems?
 
-Atlas can be designed to connect with systems such as CRM platforms, help desks, cloud services, databases,
-and internal applications. Integration scope depends on the available APIs, data model, permissions,
-security requirements, and desired workflow.
+Atlas can be connected to an organization's existing systems as part of a project. The scope depends on
+the systems involved, the access available, security requirements, and the workflow.
+
+## Which industries is Atlas built for?
+
+Atlas is built for facilities and property management, where tenants and contractors report faults, request
+work orders, and ask for status updates by phone or WhatsApp. Atlas also supports appointment booking for
+aesthetics clinics. Reception workflows for general practice and dental clinics are being developed.
 
 ## What outcomes is Atlas designed to support?
 
-Atlas is designed around operational outcomes such as:
+Atlas is designed around outcomes such as:
 
-- Faster first response
 - Fewer missed calls and missed enquiries
-- More appointments booked or requested
-- More consistent lead follow-up
-- More consistent answers to common questions
-- Less repetitive work for front-desk, sales, marketing, and support teams
-- Better routing and escalation context
-- Clearer operational visibility
-- Controlled automation with human involvement where needed
+- Faster first response, at any hour
+- More appointments booked without extra front-desk pressure
+- Requests recorded with the details the team needs
+- Clear summaries whenever a person needs to step in
 
 These are design goals, not guaranteed performance results.

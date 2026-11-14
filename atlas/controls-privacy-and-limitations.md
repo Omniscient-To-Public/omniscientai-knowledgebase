@@ -2,12 +2,9 @@
 
 ## How is Atlas kept under control?
 
-Atlas solutions can use defined tools, fixed permissions, approved knowledge sources, validation,
-rate limits, timeouts, monitoring, and human review. High-impact actions should require appropriate
-authorization or confirmation.
-
-Atlas should not be given arbitrary code execution, unrestricted web browsing, or open-ended access to
-business systems.
+Atlas works within the actions, permissions, and approved information agreed with each organization, and
+asks customers to confirm important details before it saves a request. People stay in charge of
+approvals and decisions.
 
 ## What does the public Atlas website demo do?
 
@@ -34,11 +31,10 @@ The public website demo does not:
 
 ## Does the public demo store audio or transcripts?
 
-The MVP is designed not to persist raw visitor audio or full or partial conversation transcripts.
-Conversation state is kept only for the active session and discarded when the session ends.
+The public demo is designed not to keep visitor audio or conversation transcripts. The conversation is kept
+only for the active session and discarded when the session ends.
 
-Operational telemetry may include non-content metadata such as generated session identifiers, timestamps,
-duration, turn count, latency, error codes, action types, usage, and estimated cost.
+Omniscient AI may keep non-content information about demo sessions, such as their length and any errors.
 
 ## Should visitors share personal or sensitive information?
 
@@ -47,7 +43,7 @@ business data, or unnecessary personal information to the public demo.
 
 ## Can Atlas make mistakes?
 
-Yes. AI systems can misunderstand speech, retrieve the wrong passage, or produce an incomplete answer.
+Yes. AI systems can misunderstand speech or produce an incomplete or wrong answer.
 Atlas should use approved knowledge, acknowledge uncertainty, and escalate or direct the visitor to the
 contact page when the available information does not support an answer.
 
