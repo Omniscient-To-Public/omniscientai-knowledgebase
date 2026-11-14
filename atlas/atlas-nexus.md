@@ -28,8 +28,8 @@ up before the customer is called back.
 
 ## How does Nexus by Atlas route calls?
 
-Nexus by Atlas queues calls by priority and arrival time and offers each call to the available agent in the
-queue's teams who has been idle longest. Unanswered calls return to the queue.
+Nexus by Atlas queues calls by priority and rings an available agent in the queue's teams. Unanswered calls
+return to the queue.
 
 Each Nexus queue can have business hours, public holidays, a maximum wait, and a fallback such as
 voicemail, another number, an overflow queue, or a callback. Calls handed over by Atlas can be routed by
@@ -69,8 +69,8 @@ outbound calls, dispositions, and topics. Standard reports can be downloaded as 
 Nexus by Atlas does not run outbound calling campaigns, connect SIP desk phones, or forecast staffing. Its
 reports are not a workforce-management or billing system.
 
-Nexus live transcription supports English, or English and Mandarin in one call depending on the
-organization's configuration. Malay is not transcribed. Caller mood scoring works in English.
+Nexus live transcription supports English, and Mandarin where an organization has it set up. Caller mood
+scoring works in English.
 
 WhatsApp, Telegram, Messenger, Instagram, and TikTok conversations reach Nexus only as handoffs from
 Atlas.

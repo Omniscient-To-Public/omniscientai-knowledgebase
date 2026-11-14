@@ -2,19 +2,20 @@
 
 ## What is Omniscient AI's main focus?
 
-Omniscient AI builds AI and software systems, offering Atlas AI Platform for AI voice and multi-channel customer communications,  process and workflow automation, custom
-applications
+Omniscient AI builds AI and software systems. It offers the Atlas AI Platform for customer calls and
+messaging, the Nexus by Atlas contact center, and consulting for workflow automation, custom AI solutions,
+software development, and cloud integration.
 
 ## What is Atlas?
 
-Atlas is Omniscient AI's platform for voice AI, multi-channel customer communication, appointment booking,
-lead follow-up, AI marketing and sales, workflow automation, call routing, and support intelligence.
+Atlas is Omniscient AI's conversational AI platform. It answers phone calls and WhatsApp messages, books
+appointments, records requests such as fault reports, gives status updates, and hands customers to a
+person with the full context when needed.
 
 ## What Atlas products are on the public website?
 
-The public website presents Atlas Receptionist at `/atlas/receptionist`, Atlas Social Content Marketing
-at `/atlas/social-content-marketing`, Atlas Sales and Leads at `/atlas/sales-and-leads`, and the Nexus by Atlas
-contact center at `/atlas/nexus`. The Atlas platform overview is at `/features`.
+The public website presents Atlas Receptionist at `/atlas/receptionist` and the Nexus by Atlas contact
+center at `/atlas/nexus`. The Atlas platform overview is at `/features`.
 
 ## Can Atlas answer questions using company information?
 
@@ -34,29 +35,34 @@ Atlas, so calls and messaging conversations handed over by Atlas arrive with a s
 
 ## Can Atlas book appointments?
 
-Atlas can help customers book, change, or request appointments when the implementation includes the needed
-booking rules, calendar or scheduling integration, permissions, confirmations, and human fallback paths.
+Yes. Atlas checks open appointment times, offers them to the customer, and confirms before completing a
+booking. Customers can also change appointments. Booking rules are agreed with each organization.
 
-## Can Atlas help with lead follow-up?
+## Does Atlas make outbound sales calls or run marketing?
 
-Yes. Atlas can contact new leads, ask qualification questions, follow up by configured channels such as
-calls, SMS, or chat, and prepare a summary for the sales team.
+No. Atlas does not make outbound sales calls, qualify sales leads, or plan or draft social media or
+marketing content. Atlas answers customers who call or message, and hands them to the team when needed.
 
-## Can Atlas help with social content marketing?
+## Does Atlas support website chat, SMS, or email?
 
-Atlas can help plan content themes, draft posts and campaign copy, prepare outreach messages, and support
-follow-up with interested prospects. Content should be reviewed by the organization before publication.
+Not currently. Atlas supports phone calls and WhatsApp. Conversations from other messaging apps can be
+handed to people in Nexus by Atlas.
+
+## What technology does Atlas use?
+
+Omniscient AI does not publish the technology, AI models, or service providers behind Atlas or Nexus by
+Atlas, or how they are built. To discuss security or data handling for a project, use the contact page at
+`/contact-us`.
 
 ## Can Atlas update a CRM or help desk?
 
-Atlas can be integrated with CRM, help-desk, cloud, database, and internal systems when permitted APIs and
-access controls are available. Actions should be defined, validated, and monitored.
+Atlas can be connected to an organization's existing systems as part of a project. The scope depends on
+the systems involved, the access available, and security requirements.
 
 ## Is Atlas available all the time?
 
-Atlas is designed for automated customer operations, but actual availability depends on the deployed
-architecture, provider availability, configured limits, and support arrangement. No universal uptime
-guarantee is published.
+Atlas is designed to answer at any hour, including after hours. No uptime guarantee is published; service
+terms are agreed with each organization.
 
 ## Does Omniscient AI publish pricing?
 
@@ -74,5 +80,5 @@ and how to engage the company.
 
 ## Does the public website agent store conversations?
 
-The MVP is designed not to persist raw audio or conversation transcripts. It may record non-content
-operational metadata such as session duration, turn count, latency, errors, and usage.
+The public demo is designed not to keep audio or conversation transcripts. Omniscient AI may keep
+non-content information about sessions, such as their length and any errors.

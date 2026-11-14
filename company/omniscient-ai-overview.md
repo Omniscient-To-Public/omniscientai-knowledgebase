@@ -29,8 +29,9 @@ The primary public service areas are:
 - **Custom AI solutions** designed around specific business processes, knowledge, and systems
 - **Software development** for enterprise platforms, internal tools, customer applications, APIs, and backend services
 - **Cloud integration** for connecting applications, platforms, data, and automation
-- **Atlas AI Platform** for AI receptionist, customer communication, appointment booking, lead follow-up,
-  social content marketing support, workflow automation, and support intelligence
+- **Atlas AI Platform** for answering customer calls and WhatsApp messages, appointment booking, requests
+  and status updates, and handoff to people
+- **Nexus by Atlas** contact center for human agents and supervisors
 
 ## How does Omniscient AI approach delivery?
 
@@ -48,8 +49,8 @@ work, connect business systems, build custom software, or deploy AI using their 
 workflows.
 
 Atlas is especially relevant to customer-facing teams that lose value through missed calls, slow replies,
-after-hours enquiries, or inconsistent lead follow-up. Public website examples include clinics, wellness
-and beauty providers, salons and spas, retail service counters, showrooms, and property agencies.
+or after-hours enquiries. Public website examples include facilities and property management teams,
+aesthetics and beauty clinics, and service businesses that take bookings.
 
 The appropriate solution depends on the organization's process, systems, data, risk requirements, and
 success measures.
